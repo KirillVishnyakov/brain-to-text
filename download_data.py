@@ -48,7 +48,7 @@ def main():
     ## Make sure the command is being run from the right place and we can see the data/
     ## directory.
 
-    DATA_DIR = "data/"
+    DATA_DIR = "/kaggle/working/data/"
     data_dirpath = os.path.abspath(DATA_DIR)
     assert os.getcwd().endswith(
         "nejm-brain-to-text"
