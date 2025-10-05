@@ -48,7 +48,7 @@ def main():
     ## Make sure the command is being run from the right place and we can see the data/
     ## directory.
 
-    DATA_DIR = "/kaggle/working/data/"
+    DATA_DIR = "/kaggle/working/brain-to-text/data/"
     data_dirpath = os.path.abspath(DATA_DIR)
     assert os.path.exists(
         data_dirpath
