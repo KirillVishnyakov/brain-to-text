@@ -2,14 +2,17 @@
 *.pyc
 *.egg-info
 
-# ignore rdb files
+# ignore redis dump files
 *.rdb
 
-# ignore ds_store files
+# ignore macOS DS_Store
 .DS_Store
 
-.md
+# ignore Markdown files
+*.md
 
-.sh
+# ignore shell scripts
+*.sh
 
-.png
+# ignore PNG images
+*.png
